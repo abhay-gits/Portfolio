@@ -59,6 +59,10 @@
         text-align: center;
     }
 
+    .contact-btn{
+        margin-top: 0;
+    }
+
     /* About section */
 
     .about-section{

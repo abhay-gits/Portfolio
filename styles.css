@@ -91,7 +91,7 @@
     font-size: 1rem;
     font-weight: 600;
     padding: 1rem 1rem;
-    width: 11rem;
+    width: 10rem;
     border-radius: 2rem;
     border: (53, 53, 53) 0.1rem solid;
     margin-left: 1rem;
@@ -102,6 +102,7 @@
     background: rgb(53, 53, 53);
     color: white;
     border: none;
+    margin-top: 1rem;
 }
 .cv-btn{
     background: white;
@@ -178,6 +179,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .project-card-2{
     display: grid;
