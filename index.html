@@ -7,6 +7,7 @@
     <link rel="icon" href="./assets/hero.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="responsive.css">
     <title>Abhay's Portfolio | Web developer</title>
@@ -23,7 +24,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
-            <img src="./assets/hamburger.svg" alt="">
+            <a href="https://textabhay.netlify.app/"><img src="./assets/hamburger.svg"></a>
         </div>
     </nav>
     <!-- Hero -->
@@ -58,55 +59,133 @@
             </p>
         </div>
     </section>
+    <!-- Experience -->
+     <section class="skill-section">
+        <h2>Experience</h2>
+        <div class="skill-section-container">
+            <div class="frontend-skill skill-card">
+                <h1>Frontend Development</h1>
+                    <div class="skill-card-container">
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>HTML</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>CSS</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>React</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>Tailwind</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                    </div>
+            </div>
+            <div class="frontend-skill skill-card">
+                <h1>Backend Development</h1>
+                    <div class="skill-card-container">
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>Node JS</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>Express</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>MongoDB</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="skill-card-info">
+                            <img src="./assets/checkmark.png" width="30px" height="30px">
+                            <div class="skill-info">
+                                <h3>Git</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                    </div>
+            </div>
+        </div>
+     </section>
     <!-- Project -->
-    <section class="project-section" id="project">
+    <section class="project-section">
         <h2>Projects</h2>
-        <!-- Project 1 -->
-    <div class="project-card">
-        <div class="project-card-info">
-            <h1>React Chat App</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore pariatur optio perferendis eos unde,
-                </p>
-            <div class="project-links">
-                <button class="project-btn">Live Demo</button>
-                <button class="project-btn">Source Code</button>
-            </div>
-        </div>
-        <img src="./assets/github.png" alt="">
-    </div>
-    <!-- Project 2 -->
-    <div class="project-card project-card-2">
-        <img src="./assets/github.png">
-        <div class="project-card-info">
-            <h1>React Chat App</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore pariatur optio perferendis eos unde,
-                </p>
-            <div class="project-links">
-                <button class="project-btn">Live Demo</button>
-                <button class="project-btn">Source Code</button>
-            </div>
-        </div>
-        
-    </div>
-        </section>
-        <!-- Contact -->
-    <section class="contact-section" id="contact">
-            <h2>Contact Me</h2>
-            <div class="contact-card">
-                <div class="social">
-                    <img src="./assets/mail.svg" alt="mail" width="40px">
-                    <p><a href="mailto:ranaabhay254@gmail.com" style="text-decoration: none; color: inherit;">ranaabhay254@gmail.com</p></a>
+        <div class="project-section-top">
+            <div class="project-card">
+                <img src="./assets/project/react-project.jpeg">
+                <h3 class="project-heading">QuickChat</h3>
+                <div class="project-btns">
+                    <a href="https://textabhay.netlify.app/"><button>Live</button></a>
+                    <button>Code</button>
                 </div>
-                <div class="social">
+            </div>
+            <div class="project-card">
+                <img src="./assets/project/hub.jpg">
+                <h3 class="project-heading">QuickChat</h3>
+                <div class="project-btns">
+                    <button>Live</button>
+                    <button>Code</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-card">
+            <div class="social">
+                <img src="./assets/mail.svg" alt="mail" width="40px">
+                <p><a href="mailto:ranaabhay254@gmail.com"
+                        style="text-decoration: none; color: inherit;">ranaabhay254@gmail.com</p></a>
+            </div>
+            <div class="social">
                 <img src="./assets/x.png" alt="twitter" width="40px">
                 <p>Twitter</p>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
     <footer style="text-align: center; margin-bottom: 20px;">
         <p>Copyright © 2024 Abhay. All Rights Reserved.</p>
-        </footer>
-        <script src="script.js"></script>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
