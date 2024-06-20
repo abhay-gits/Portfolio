@@ -15,3 +15,9 @@ t1.from('.hero-image, .hero-info h2,.hero-info h3,.hero-info button,.hero-info i
     stagger: 0.2,
     ease: 'back.out(4.7)'
 })
+
+/* Coming Soon */
+
+function soon(){
+    alert("Yet to be Set");
+}

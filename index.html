@@ -20,11 +20,11 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
-            <a href="https://textabhay.netlify.app/"><img src="./assets/hamburger.svg"></a>
+            <img src="./assets/hamburger.svg">
         </div>
     </nav>
     <!-- Hero -->
@@ -36,7 +36,7 @@
             <h2>Hey, i'm <span class="name">Abhay</span></h2>
             <h3>Full Stack developer</h3>
             <div class="btns">
-                <button class="cv-btn">Download CV</button>
+                <button class="cv-btn" onclick="soon()">Download CV</button>
                 <a href="#contact"><button class="contact-btn">Contact info</button></a>
             </div>
             <div class="hero-socials">
@@ -60,7 +60,7 @@
         </div>
     </section>
     <!-- Experience -->
-     <section class="skill-section">
+     <section class="skill-section" id="skills">
         <h2>Experience</h2>
         <div class="skill-section-container">
             <div class="frontend-skill skill-card">
@@ -110,7 +110,7 @@
                             <img src="./assets/checkmark.png" width="30px" height="30px">
                             <div class="skill-info">
                                 <h3>Node JS</h3>
-                                <p>Proficient</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article class="skill-card-info">
@@ -146,7 +146,7 @@
         </div>
      </section>
     <!-- Project -->
-    <section class="project-section">
+    <section class="project-section" id="projects">
         <h2>Projects</h2>
         <div class="project-section-top">
             <div class="project-card">
@@ -154,15 +154,15 @@
                 <h3 class="project-heading">QuickChat</h3>
                 <div class="project-btns">
                     <a href="https://textabhay.netlify.app/"><button>Live</button></a>
-                    <button>Code</button>
+                    <a href="https://github.com/abhay-gits/react-chat-app"><button>Code</button></a>
                 </div>
             </div>
             <div class="project-card">
                 <img src="./assets/project/hub.jpg">
                 <h3 class="project-heading">QuickChat</h3>
                 <div class="project-btns">
-                    <button>Live</button>
-                    <button>Code</button>
+                    <button onclick="soon()">Live</button>
+                    <button onclick="soon()">Code</button>
                 </div>
             </div>
         </div>
@@ -176,7 +176,7 @@
                 <p><a href="mailto:ranaabhay254@gmail.com"
                         style="text-decoration: none; color: inherit;">ranaabhay254@gmail.com</p></a>
             </div>
-            <div class="social">
+            <div class="social" onclick="soon()">
                 <img src="./assets/x.png" alt="twitter" width="40px">
                 <p>Twitter</p>
             </div>
