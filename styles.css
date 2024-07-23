@@ -227,7 +227,7 @@
 }
 
 .skill-card:hover {
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px grey inset;
 }
 
 .skill-card h1 {
@@ -237,8 +237,8 @@
 }
 
 .skill-card-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
     width: 100%;
     padding: 0 3rem;
     gap: 50px;
@@ -288,6 +288,15 @@
     text-align: center;
     padding: 1.5rem;
     border: rgb(53, 53, 53) 0.1rem solid;
+    transition: .5s;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 20px grey;
+}
+
+.project-card:hover img {
+    scale: 1.01;
 }
 
 .project-card img {
@@ -295,10 +304,6 @@
     height: 75%;
     border-radius: 20px;
     transition: 0.5s;
-}
-
-.project-card img:hover {
-    scale: 1.05;
 }
 
 .project-heading {
@@ -357,6 +362,11 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
+    transition: .5s;
+}
+
+.contact-card:hover {
+    box-shadow: 0 0 20px grey inset;
 }
 
 .contact-card p {
