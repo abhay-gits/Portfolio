@@ -1,35 +1,44 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
+
     /* Navbar */
-    .nav-bar{
+    .nav-bar {
         padding: 2rem 3rem;
     }
-    .logo{
+
+    .logo {
         font-size: 1.5rem;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
     }
-    .nav-links{
+
+    .nav-links {
         display: none;
     }
+
     /* Hero */
-    .hero{
+    .hero {
         display: flex;
         flex-direction: column;
         padding: 0%;
         align-items: center;
         margin-top: 2rem;
     }
-    .hero-info{
+
+    .hero-info {
         width: 80%;
     }
-    .hero-image{
+
+    .hero-image {
         width: 200px;
     }
-    .btns{
+
+    .btns {
         display: flex;
     }
-    .btns button{
+
+    .btns button {
         font-size: 0.9rem;
         font-weight: 500;
         padding: 1rem .6rem;
@@ -39,50 +48,56 @@
         margin-left: 1rem;
         transition: 0.5s;
     }
-    .hero-info h2{
+
+    .hero-info h2 {
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 1.2rem;
         text-align: center;
     }
-    .name{
+
+    .name {
         font-size: 3rem;
         display: block;
     }
-    
-    .hero-info h3{
+
+    .hero-info h3 {
         font-size: 1.5rem;
         margin-bottom: 20px;
         color: rgb(53, 53, 53);
         text-align: center;
     }
 
-    .contact-btn{
+    .contact-btn {
         margin-top: 0;
     }
 
     /* About section */
 
-    .about-section{
+    .about-section {
         padding: 0 2rem;
         margin-top: 10rem;
     }
-    .about-section h2{
+
+    .about-section h2 {
         text-align: center;
         margin-bottom: 50px;
         font-size: 2rem;
     }
-    .about{
+
+    .about {
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
-    .about img{
+
+    .about img {
         width: 200px;
         border-radius: 20px;
         height: 100%;
     }
-    .about p{
+
+    .about p {
         font-size: 1.3rem;
         color: rgb(53, 53, 53);
         line-height: 1.8rem;
@@ -90,68 +105,70 @@
 
     /* Skill Section */
 
-    .skill-section{
+    .skill-section {
         padding: 0 2rem;
         margin-top: 5rem;
     }
 
-    .skill-section h2{
+    .skill-section h2 {
         margin-bottom: 40px;
     }
 
-    .skill-section-container{
+    .skill-section-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 0px;
     }
 
-    .skill-card{
+    .skill-card {
         width: 100%;
         height: auto;
         padding: 20px 0px;
     }
 
 
-    .skill-card h1{
+    .skill-card h1 {
         font-size: 1.3rem;
         margin-top: 1rem;
     }
 
-    .skill-card-container{
+    .skill-card-container {
+        grid-template-columns: auto;
         padding: 0 2rem;
         gap: 30px;
     }
 
     /* Project Section */
 
-    .project-section{
+    .project-section {
         margin-top: 1rem;
     }
 
-    .project-section-top{
+    .project-section-top {
         display: flex;
         flex-direction: column;
         gap: 70px;
         align-items: center;
     }
 
-    .project-card{
+    .project-card {
         width: 90%;
     }
 
-    .project-card img{
+    .project-card img {
         width: 100%;
         height: 100%;
     }
 
     /* Contact Section */
-    
-    .contact-section h2{
+
+    .contact-section h2 {
         font-size: 2.5rem;
         margin-bottom: 30px;
     }
-    .contact-card{
+
+    .contact-card {
         width: 90%;
         height: 80px;
         display: flex;
@@ -163,24 +180,29 @@
         overflow: hidden;
         border: none;
     }
-    .contact-card p{
+
+    .contact-card p {
         font-size: 1.1rem;
     }
-    .social{
+
+    .social {
         display: flex;
         align-items: center;
         gap: 20px;
         cursor: pointer;
         transition: 0.5s;
     }
-    .social img{
+
+    .social img {
         width: 20px;
     }
-    .social:hover{
+
+    .social:hover {
         color: rgb(53, 53, 53);
         text-decoration: underline;
     }
-    footer p{
+
+    footer p {
         font-size: .8rem;
     }
 
