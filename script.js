@@ -28,7 +28,7 @@ const music = document.getElementById('music');
 const audio = document.getElementById('audio');
 
 let flag = 0;
-audio.volume = 0.5;
+audio.volume = 0.3;
 
 music.addEventListener('click', () => {
     const fn = () => {
