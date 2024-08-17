@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     let t1 = gsap.timeline();
-
+    t1.to(".animate", { opacity: 1, visibility: "visible", duration: 1 });
     t1.from('.logo, .nav-links li', {
         opacity: 0,
         y: -20,

@@ -8,6 +8,11 @@
     user-select: none;
 }
 
+.animate {
+    opacity: 0;
+    visibility: hidden;
+}
+
 /* NavBar */
 
 .nav-bar {
