@@ -291,11 +291,9 @@
 }
 
 .project-card {
-    border-radius: 20px;
     width: 40%;
     text-align: center;
     padding: 1.5rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
     transition: .5s;
 }
 
@@ -396,21 +394,4 @@
 .social:hover {
     color: rgb(53, 53, 53);
     text-decoration: underline;
-}
-
-.music {
-    background: grey;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 8px;
-    transition: .5s;
-}
-
-.music:hover {
-    cursor: pointer;
-    box-shadow: 0 0 20px grey;
 }
